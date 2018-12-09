@@ -1,0 +1,83 @@
+body {
+	background-color: #FFAA00;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: lighter;
+}
+
+.words {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+.images {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.buttons {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	
+}
+
+.words2 {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+p {
+	display: flex;
+  	justify-content: center;
+  	align-items:center;
+	background-color: #FFFFFF;
+	margin: 0px 4px 0px 4px;
+	height: 30px;
+	width: 200px;
+}
+
+img {
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	margin: 0px 4px 50px 4px;
+	object-fit: cover;
+}
+
+.buttons_self.option1{
+	border-top: 2px solid #1B09AF;
+	border-right: 2px solid #1B09AF;
+	border-left: 2px solid #1B09AF;
+	width: 198px;
+}
+
+.buttons_self.option2{
+	border-top: 2px solid #1B09AF;
+	border-right: 2px solid #1B09AF;
+	border-left: 2px solid #1B09AF;
+	width: 198px;
+}
+
+.buttons_self2.option1{
+	border-bottom: 2px solid #1B09AF;
+	border-right: 2px solid #1B09AF;
+	border-left: 2px solid #1B09AF;
+	width: 198px;
+}
+
+.buttons_self2.option2{
+	border-bottom: 2px solid #1B09AF;
+	border-right: 2px solid #1B09AF;
+	border-left: 2px solid #1B09AF;
+	width: 198px;
+}
