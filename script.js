@@ -11,21 +11,21 @@ div.onclick=function test(event) {
 		console.log('Works');
 		let option = document.getElementById("option1").innerHTML;
 		if (correct_answer == option) {
-			alert("Correct!");
 			correctAnswerAudio.play();
+			alert("Correct!");
 		} else {
-			alert("Wrong!");
 			incorrectAnswerAudio.play();
+			alert("Wrong!");
 		}
 	} 
 	else if (target.classList[1] == "option2") {
 		let option = document.getElementById("option2").innerHTML;
 		if (correct_answer == option) {
-			alert("Correct!");
 			correctAnswerAudio.play();
+			alert("Correct!");
 		} else {
-			alert("Wrong!");
 			incorrectAnswerAudio.play();
+			alert("Wrong!");
 		}
 	}
 }
