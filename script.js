@@ -3,7 +3,8 @@ let correctAnswerAudio = document.getElementById("correct_answer_audio");
 let incorrectAnswerAudio = document.getElementById("incorrect_answer_audio");
 
 
-div.onclick=function test(event) {
+
+div.onclick = function test(event) {
 	let correct_answer = document.getElementById("correct_answer").innerHTML;
 	let target = event.target;
 	console.log(target);
