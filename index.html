@@ -5,10 +5,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1 id="correct_answer">blue</h1>
+	<h1 class="title" id="correct_answer">blue</h1>
 	<div class="words">
-		<p id="option1">green</p>
-		<p id="option2">blue</p>
+		<p class="text_background_first" id="option1">green</p>
+		<p class="text_background_second" id="option2">blue</p>
 	</div>
 	<div class="images">
 		<img src=img/green_car.jpg alt="green car">
@@ -23,9 +23,19 @@
 			<img class="buttons_self2 option1" id="first_button" src=img/green_bamboo.jpg alt="green bamboo">
 			<img class="buttons_self2 option2" id="second_button" src=img/blue_feather.jpg alt="blue feather">
 		</div>
+		<div>
+			<img class="buttons_self3" id="second_button" src=img/blue_feather.jpg alt="blue feather">
+			<img class="buttons_self3" id="first_button" src=img/green_bamboo.jpg alt="green bamboo">
+		</div>
 	</div>
 	<audio id="english_audio" preload="auto" controls>
     	<source src=audio/english_audio.mp3 type="audio/mpeg">
+  	</audio>
+  	<audio id="correct_answer_audio" preload="auto">
+  		<source src=audio/correct.mp3 type="audio/mpeg">
+  	</audio>
+  	<audio id="incorrect_answer_audio" preload="auto">
+  		<source src=audio/incorrect.mp3 type="audio/mpeg">
   	</audio>
 	<script type="text/javascript" src="script.js"></script>
 </body>
