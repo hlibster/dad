@@ -5,29 +5,41 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1 class="title" id="correct_answer">blue</h1>
-	<div class="words">
-		<p class="text_background_first" id="option1">green</p>
-		<p class="text_background_second" id="option2">blue</p>
-	</div>
-	<div class="images">
-		<img src=img/green_car.jpg alt="green car">
-		<img src=img/blue_door.jpg alt="blue door">
-	</div>
-	<div id="buttons">
-		<div class="words2">
-			<p class="buttons_self option1"></p>
-			<p class="buttons_self option2"></p>
+	<div class="first_page">
+		<h1 class="title" id="correct_answer">blue</h1>
+		<div class="words">
+			<p class="text_background_first" id="option1">green</p>
+			<p class="text_background_second" id="option2">blue</p>
 		</div>
-		<div class="buttons">
-			<img class="buttons_self2 option1" id="first_button" src=img/green_bamboo.jpg alt="green bamboo">
-			<img class="buttons_self2 option2" id="second_button" src=img/blue_feather.jpg alt="blue feather">
+		<div class="images">
+			<img class="picture" src=img/green_car.jpg alt="green car">
+			<img class="picture" src=img/blue_door.jpg alt="blue door">
 		</div>
-	</div>
+		<div id="buttons">
+			<div class="words2">
+				<p class="buttons_self option1"></p>
+				<p class="buttons_self option2"></p>
+			</div>
+			<div class="buttons" id="a" data-foo="aaaa">
+				<div class="first_column">
+					<img class="buttons_self2 option1" id="first_button" src=img/green_bamboo.jpg alt="green bamboo">
+					<img class="hidden" id="wrong1" src=img/wrong.png alt="wrong">
+					<img class="hidden" id="correct1" src=img/correct.png alt="correct">
+				</div>
+				<div class="second_column">
+					<img  class="buttons_self2 option2" id="second_button" src=img/blue_feather.jpg alt="blue feather">
+					<img class="hidden" id="wrong2" src=img/wrong.png alt="wrong">
+					<img class="hidden" id="correct2" src=img/correct.png alt="correct">
+				</div>
+			</div>
+		</div>
+	</div>	
 	<iframe src="audio/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-	<audio id="green_blue_audio" preload="auto"  autoplay>
+	<audio id="green_blue_audio" preload="auto" autoplay> <!-- autoplay -->
     	<source src=audio/green_blue.mp3 type="audio/mpeg">
   	</audio>
+  	<audio id="green_audio" preload="auto">
+  		<source src=audio/green.mp3 type="audio/mpeg">
   	<audio id="correct_answer_audio" preload="auto">
   		<source src=audio/correct.mp3 type="audio/mpeg">
   	</audio>
