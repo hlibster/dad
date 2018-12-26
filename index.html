@@ -34,12 +34,13 @@
 			</div>
 		</div>
 	</div>	
-	<iframe src="audio/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-	<audio id="green_blue_audio" preload="auto" autoplay> <!-- autoplay -->
+	<iframe src="audio/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe> <!-- autoplay workaround for chrome-->
+	<audio id="green_blue_audio" preload="auto" autoplay> 
     	<source src=audio/green_blue.mp3 type="audio/mpeg">
   	</audio>
   	<audio id="green_audio" preload="auto">
   		<source src=audio/green.mp3 type="audio/mpeg">
+	</audio>
   	<audio id="correct_answer_audio" preload="auto">
   		<source src=audio/correct.mp3 type="audio/mpeg">
   	</audio>
